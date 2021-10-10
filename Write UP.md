@@ -7,7 +7,7 @@
 ## Solution
 * Overview the challenge provided us a search box i think it `sql injection`
 ![Main function](./challenge.PNG) 
-*  i try `double quote` and this is server response 
+*  I try `double quote` and this is server response 
 ![Main function](./sqli.PNG)
 * After that i save `request` from `BurpSuite` and scan it with sqlmap
 ![Main function](./request.PNG)
