@@ -5,7 +5,7 @@
 * Description: None
 
 ## Solution
-* Overview the challenge provided us a search box i think it `sql injection`
+* Overview the challenge provided us a search box i think it `Sql Injection`
 ![Main function](./challenge.PNG) 
 *  I try `double quote` and this is server response 
 ![Main function](./sqli.PNG)
